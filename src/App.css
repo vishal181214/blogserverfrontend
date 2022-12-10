@@ -1,0 +1,223 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+button{
+  cursor:pointer;
+}
+
+/* nav bar  */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(50, 48, 48);
+  padding:0vw 3vw;
+  flex-wrap: wrap;
+}
+
+.navRight{
+  display: flex;
+}
+.navLeft{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin:0.4vw 2vw;
+  font-size: 20px;
+}
+
+.home{
+  padding-left: 5%;
+  /* display: grid; */
+  /* grid-template-columns: auto auto auto auto; */
+}
+
+/* header  */
+.header{
+  margin: 20px;
+  padding: 20px 200px;
+  border-radius: 20px;
+}
+.color{
+  color: white;
+}
+
+/* routes  */
+.same{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* cards  */
+.card{
+  width: 50vw;
+  height: 300px;
+  display: flex;
+  /* border: 2px solid rgb(83, 80, 80); */
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+}
+
+.card:hover .delBtn{
+  display: inline-block;
+}
+
+.card:hover .editBtn{
+  display: inline-block;
+}
+.cardLeft{
+  text-align: center;
+  width: 50%;
+  padding: 0px;
+}
+.cardLeft img{
+  width:100%;
+  height:100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.cardRight{
+  text-align: center;
+  width: 45%;
+  padding:0% 2%;
+}
+
+.cardRight .card-title{
+  margin-top: 7vh;
+}
+
+.delBtn{
+  position: absolute;
+  padding: 0px 0px; 
+  border: none; 
+  top:1vh; 
+  right: 3.5vw;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  display: none;
+}
+
+.editBtn{
+  position: absolute;
+  padding: 0px 0px; 
+  border: none; 
+  top:1vh;
+  right: 1vw; 
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  display: none;
+}
+
+/* create cards  */
+.createCard{
+  width: 32vw;
+  padding: 2vw;
+  box-shadow: 10px 10px 10px gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  border-radius: 30px;
+  margin: 100px;
+}
+
+/* login signup  */
+.ls-btn{
+  font-size: 20px;
+  width: 40%;
+  height: 40px;
+  margin-top: 30px;
+  padding: 0px 10px;
+  background-color: steelblue;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-left: 5%;
+}
+
+.ls-btn:hover{
+  background-color: peachpuff;
+  border-radius: 10px;
+  color: white;
+}
+
+.loginsignup{
+  width: 30vw;
+  padding: 5vh 4vw;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  margin-top: 50px;
+}
+
+.login{
+  margin-top: 20px;
+  height: 30vh;
+}
+.signup{
+  margin-top: 20px;
+}
+
+.labelHead{
+  font-size: 18px; 
+  color: rgb(129, 41, 212);
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.inpStyle{
+  width: 30vw; 
+  border-radius: 5px; 
+  height: 30px; 
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: white;
+  border: 2px solid gray;
+}
+
+.bttnStyle{
+  background-color:green; 
+  color: white;
+  border: none;
+  padding: 8px 50px; 
+  margin-top: 30px; 
+  border-radius: 15px;
+  font-size:20px;
+  margin-left: 30%;
+}
+
+.advBlock{
+  width: 40vw;
+  height: auto;
+}
+
+.advert{
+  width: 30vw;
+  height: 30vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  background: url("https://nettv4u.com/fileman/Uploads/Top-10-Bollywood-Actors-Who-Have-Featured-In-A-Maggie-Ad/Top-10-Bollywood-Actors-Who-Have-Featured-In-A-Soft-Drink-Ad/SALMAN_Khan_insideiim_facebook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secAdv{
+   width: 30vw;
+  height: 90vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  background: url("https://www.adgully.com/img/1000/202008/education-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
